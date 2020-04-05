@@ -1,0 +1,16 @@
+.navigation{
+  position: fixed;
+  width: 100%;
+  z-index: 5;
+}
+.Nav_on{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 5px .5em;
+  justify-content: space-between;
+}
+.search{
+  outline: none;
+}

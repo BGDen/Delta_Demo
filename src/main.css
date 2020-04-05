@@ -1,3 +1,5 @@
+@import url('./components/CSS/navigation/navbar.css');
+
 body, #root, .render_all_card, .all_body_card, .card_b{
   display: flex;
   flex-direction: column;
@@ -6,17 +8,24 @@ body, #root, .render_all_card, .all_body_card, .card_b{
   flex-wrap: wrap;
 }
 body{
+  width: 100vw;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-.Nav_on{
+#root{
+  width: 100%;
+  box-sizing: border-box;
+  z-index: 3;
+}
+.wrapper{
   width: 100%;
 }
 .mainApp{
   padding: .5em;
 }
 .render_all_card{
+  margin-top: 3.8em;
   flex-direction: row;
 }
 .card{
@@ -32,8 +41,8 @@ body{
   justify-content: space-between;
 }
 .img, .img_crd{
-  width: 150px;
-  height: 150px;
+  width: 160px;
+  height: 170px;
 }
 .card_b{
   width: 100%;
