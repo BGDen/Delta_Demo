@@ -3,7 +3,7 @@ import React from 'react';
 export function Navigation (props){
   // console.log(props);
   return(
-    <nav className="navbar navbar-light bg-light">
+    <nav className="navbar navbar-light bg-light Nav_on">
       
       <a className="navbar-brand" href="#">Delta Shoppy</a>
 

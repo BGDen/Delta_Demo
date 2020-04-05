@@ -10,6 +10,9 @@ body{
   padding: 0;
   box-sizing: border-box;
 }
+.Nav_on{
+  width: 100%;
+}
 .mainApp{
   padding: .5em;
 }
