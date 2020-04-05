@@ -1,4 +1,5 @@
 @import url('./components/CSS/navigation/navbar.css');
+@import url('./components/CSS/card/card.css');
 
 body, #root, .render_all_card, .all_body_card, .card_b{
   display: flex;
@@ -25,30 +26,7 @@ body{
   padding: .5em;
 }
 .render_all_card{
-  margin-top: 3.8em;
+  margin-top: 4em;
   flex-direction: row;
+  background: linear-gradient(0deg, rgba(235,194,255,1) 15%, rgba(249,236,255,1) 85%, rgba(255,255,255,1) 100%);
 }
-.card{
-  width: 14em;
-  height: 20em;
-  margin: .4em;
-}
-.all_body_card{
-  width: 100%;
-  height: 100%;
-  padding: 10px 0;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-}
-.img, .img_crd{
-  width: 160px;
-  height: 170px;
-}
-.card_b{
-  width: 100%;
-  padding: 0;
-}
-.describe{
-  text-align: center;
-} 
-
